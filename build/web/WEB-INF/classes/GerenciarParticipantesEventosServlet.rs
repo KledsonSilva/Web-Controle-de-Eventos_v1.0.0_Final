@@ -1,0 +1,2 @@
+controller.GerenciarParticipantesEventosServlet
+br.com.churrasco.dao.GerenciarParticipantesEventosServlet

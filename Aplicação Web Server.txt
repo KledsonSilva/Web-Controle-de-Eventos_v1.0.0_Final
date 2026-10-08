@@ -1,0 +1,109 @@
+Aplicação Web Server
+
+http://localhost:8080/Web_Controle_de_Eventos
+
+
+1. Primeiro Passo instalamos a IDE do Apache NetBeans atualizada 21.0.12, pois a minha estava com a versão 8.2 em fevereiro de 2025;
+
+2. Instalei também o servidor apache TomCat;
+
+3. Em fonte dos pacotes, criei meu pacote do controlador e em seguida, criei o Home Servlet que é o meu ponto de entrada da minha aplicação web... lembro das aulas do Alexander Gobatto.
+
+4. 24/09/2026
+
+* Tomcat funcionando;
+* Servlet carregado;
+* URL correta;
+* Ambiente pronto para MVC + JSP + CRUD
+* Criar uma JSP com o nome de home.jsp
+* Estrutura MVC pronta.
+* Instalação e configuração do MySql e criação do banco de dados churrasco e das tabelas clientes, eventos, participantes, despesas
+* Driver JDBC instalado 
+* Classe Conexao.java funcionando
+* Classe Model (Evento)
+* Classe DAO (Evento DAO)
+* Teste de insert no banco de dados
+
+25/09/2026
+
+* Correção do fluxo MVC:
+
+cadastroEvento.jsp
+        ↓
+Formulario HTML
+        ↓
+POST
+        ↓
+EventoServlet
+        ↓
+EventoDAO
+        ↓
+MySQL
+
+*Aplicação de CSS na página.
+
+Criação de Servlets para edição e exclusão da tabela de eventos.
+
+
+26/09/2026
+
+* Desenvolvimento da parte gráfica
+* Inclusão de botões na tela principal:
+- Cadastro de eventos
+- Cadastro de participantes
+* Criação do menu superior
+* Correção e testes de edição e exclusão de eventos
+nos textos hyperlinks.
+
+
+27/09/2026
+
+* Realização do cadastro do participante
+
+Home
+ ↓
+Cadastrar Participante
+ ↓
+CadastroParticipante.jsp
+ ↓
+ParticipanteServlet
+ ↓
+ParticipanteDAO.salvar()
+ ↓
+MySQL
+
+01/10/2026
+
+* Realização da listagem dos participantes;
+* Correção dos ServLet e DAO;
+* Verficação do JSP em receber dados. 
+
+03/10/2026
+
+* Término do CRUD Participantes
+* Inserção dos botões editar e excluir na página de participantes;
+* Correção de erros na tabela do SQL Erro 404;
+* Correção no Servlet atualizar participante campo como integer foi alterado para Double, dava o erro 500.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
